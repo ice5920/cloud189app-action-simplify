@@ -4,11 +4,11 @@ from email.mime.text import MIMEText
 from email.utils import formataddr
 
 def send_mail(log):
-    smtp_host = '' # 设置SMTP服务器
-    smtp_port = '' # 设置SMTP端口
-    mail_from = '' # 发信邮箱
-    mail_auth = '' # 发信邮箱密码/授权码
-    mail_to = [''] # 收信邮箱
+    smtp_host = 'smtp.qq.com' # 设置SMTP服务器
+    smtp_port = '587' # 设置SMTP端口
+    mail_from = '3221353742@qq.com' # 发信邮箱
+    mail_auth = 'wsuywkmnexxrchhe' # 发信邮箱密码/授权码
+    mail_to = ['3221353742@qq.com'] # 收信邮箱
 
     message = MIMEText(log, 'plain', 'utf-8')
     message['From'] = formataddr(['Bot', mail_from])
