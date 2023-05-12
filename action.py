@@ -76,8 +76,7 @@ def print_msg(msg: str = "", isFirstLine: bool = False) -> str:
 
 if __name__ == '__main__':
     # 多账号用单个空格 间隔开
-    USERNAME = ''
-    PASSWORD = ''
+    USERNAME = '18685272625'
     
     # 启用邮箱发信
     mail_enable = True
